@@ -3,7 +3,7 @@ pipeline{
     Stages {
         stage{
             steps{
-                git 'https://github.com/rdbhadri/jenkindemo/'
+                echo "Hello World"
             }
         }
     }
