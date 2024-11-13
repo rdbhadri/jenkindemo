@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    Stages {
+        stage{
+            steps{
+                git 'https://github.com/rdbhadri/jenkindemo/'
+            }
+        }
+    }
+}
